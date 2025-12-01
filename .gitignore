@@ -14,6 +14,7 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+# Keep maven wrapper jar excluded - it will be downloaded
 .mvn/wrapper/maven-wrapper.jar
 
 # IDE specific files
@@ -36,3 +37,7 @@ Thumbs.db
 *.zip
 *.tar.gz
 *.rar
+
+# SonarQube
+.sonar/
+.scannerwork/
